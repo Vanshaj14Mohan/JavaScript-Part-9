@@ -1,0 +1,1 @@
+Events are signals that tells us that something has occured on the page. (user inputs/ actions).

@@ -1,0 +1,1 @@
+## In this part we will talk mostly about events in JavaScript and how they work:

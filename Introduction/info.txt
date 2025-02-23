@@ -1,5 +1,17 @@
 Events are signals that tells us that something has occured on the page. (user inputs/ actions).
 Firstly we will talk about handling inline events.
 : How we can exactly handle DOM Events.
-onclick (When an element is coding).
+onclick (When an element is coding). 
 onmouseenter (When mouse enters an element).
+we can't set multiple values for onclick event. A DISADVANTAGE
+___________________________________________________________________________________________________
+: Event Listener
+addEventListener
+syntax: element.addEventListener(event, callback); 2 parameters -> event, callback
+callbacks are basically functions that goes as an argument in another function:
+
+eg: btn.addEventListener("click", function (){
+    console.log("Button was clicked);
+});
+
+For a single object we can assign multiple eventListener

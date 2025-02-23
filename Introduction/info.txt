@@ -1,2 +1,5 @@
 Events are signals that tells us that something has occured on the page. (user inputs/ actions).
 Firstly we will talk about handling inline events.
+: How we can exactly handle DOM Events.
+onclick (When an element is coding).
+onmouseenter (When mouse enters an element).

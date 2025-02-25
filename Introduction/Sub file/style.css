@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+p{
+    height:100px;
+    width:100px;
+    background-color: burlywood;
+    align-items: center;
+    
+}
+
+.box{
+    height:200px;
+    width:350px;
+    background-color: blueviolet;
+    border: 5px solid black;
+}

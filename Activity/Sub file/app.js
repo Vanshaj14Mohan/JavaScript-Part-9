@@ -10,17 +10,22 @@ btn.addEventListener("click", function(){
     console.dir(this.innerText);
 });
 
-p.addEventListener("click", function(){
+function changeColor(){
     console.dir(this.innerText);
     this.style.backgroundColor = "blue";
-});
+}
 
-h1.addEventListener("click", function(){
-    console.dir(this.innerText);
-    this.style.backgroundColor = "blue";
-});
+// p.addEventListener("click", function(){
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "blue";
+// });
 
-h3.addEventListener("click", function(){
-    console.dir(this.innerText);
-    this.style.backgroundColor = "blue";
-});
+// h1.addEventListener("click", function(){
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "blue";
+// });
+
+// h3.addEventListener("click", function(){
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "blue";
+// }); Another way of doing this.

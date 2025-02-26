@@ -29,3 +29,10 @@ function changeColor(){
 //     console.dir(this.innerText);
 //     this.style.backgroundColor = "blue";
 // }); Another way of doing this.
+
+p.addEventListener("click", changeColor);
+
+h1.addEventListener("click", changeColor);
+
+h3.addEventListener("click", changeColor);
+//this makes the code less repetitive and less redundancy

@@ -1,2 +1,5 @@
 We can add eventListeners for multiple elements too if we want.
 We can apply eventListeners for any single elements we want present inside the page.
+
+this in eventListeners->
+When 'this' is used in a callback of event handler of something, it refers to that something.

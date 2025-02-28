@@ -30,6 +30,7 @@ function changeColor(){ //making function
 //     this.style.backgroundColor = "blue";
 // }); Another way of doing this to make the code less repetitive.
 
+//passing the function as a callback in this.
 p.addEventListener("click", changeColor);
 
 h1.addEventListener("click", changeColor);

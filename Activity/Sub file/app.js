@@ -10,7 +10,7 @@ btn.addEventListener("click", function(){
     console.dir(this.innerText);
 });
 
-function changeColor(){
+function changeColor(){ //making function
     console.dir(this.innerText);
     this.style.backgroundColor = "blue";
 }

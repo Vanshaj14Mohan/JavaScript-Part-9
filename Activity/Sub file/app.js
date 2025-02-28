@@ -28,7 +28,7 @@ function changeColor(){
 // h3.addEventListener("click", function(){
 //     console.dir(this.innerText);
 //     this.style.backgroundColor = "blue";
-// }); Another way of doing this.
+// }); Another way of doing this to make the code less repetitive.
 
 p.addEventListener("click", changeColor);
 

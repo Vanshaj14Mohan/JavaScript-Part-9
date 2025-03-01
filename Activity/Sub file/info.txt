@@ -1,2 +1,2 @@
-this in eventListeners->
+this in eventListeners-> we can use this also and pass it inside the function.
 When 'this' is used in a callback of event handler of something, it refers to that something.

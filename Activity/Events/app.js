@@ -15,11 +15,11 @@ inp.addEventListener("keydown", function(event){
     console.log("Key was pressed");
 });
 
-// inp.addEventListener("keyup", function(){ //for keyup
+// inp.addEventListener("keyup", function(){ //for keyup event
 //     console.log("Key was released");
 // });
 
-//a mini activity
+//a mini activity game
 inp = document.querySelector("input");
 inp.addEventListener("keydown", function(event){
     console.log("For key:", event.key);

@@ -10,6 +10,8 @@ inp = document.querySelector("input");
 
 inp.addEventListener("keydown", function(event){
     console.log(event);
+    console.log("For key:", event.key);
+    console.log("For code: ", event.code);
     console.log("Key was pressed");
 });
 

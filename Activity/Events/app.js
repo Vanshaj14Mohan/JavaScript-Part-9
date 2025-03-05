@@ -19,6 +19,7 @@ inp.addEventListener("keydown", function(event){
 //     console.log("Key was released");
 // });
 
+//a mini activity
 inp = document.querySelector("input");
 inp.addEventListener("keydown", function(event){
     console.log("For key:", event.key);

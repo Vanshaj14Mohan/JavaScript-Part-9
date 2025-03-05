@@ -10,11 +10,29 @@ inp = document.querySelector("input");
 
 inp.addEventListener("keydown", function(event){
     console.log(event);
-    console.log("For key:", event.key);
-    console.log("For code: ", event.code);
+    console.log("For Event key:", event.key);
+    console.log("For Event code: ", event.code);
     console.log("Key was pressed");
 });
 
 // inp.addEventListener("keyup", function(){ //for keyup
 //     console.log("Key was released");
 // });
+
+inp = document.querySelector("input");
+inp.addEventListener("keydown", function(event){
+    console.log("For key:", event.key);
+    console.log("Event code", event.code); //ArrowUp, ArrowDown, ArrowLeft, ArrowRight
+    if(event.code =="ArrowUp"){
+        console.log("Character moves forward");
+    }
+    else if(event.code =="ArrowDown"){
+        console.log("Character moves downwards");
+    }
+    else if(event.code =="ArrowLeft"){
+        console.log("Character moves left");
+    }
+    else if(event.code =="ArrowRight"){
+        console.log("Character moves right");
+    }
+});

@@ -14,7 +14,7 @@ user.addEventListener("change", function(){
     console.log("Final Value =", user.value); //or this.value
 });
 
-user.addEventListener("input", function(){ //arrow keys don't trigger input events
+user.addEventListener("input", function(){ //arrow keys / non character keys don't trigger input events
     console.log("Input event");
     console.log("Final Value =", user.value); //or this.value
 });

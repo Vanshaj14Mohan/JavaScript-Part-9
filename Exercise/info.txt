@@ -1,0 +1,9 @@
+1: Try Out the following Event Listener on your own,
+mouseout
+keypress
+Scroll
+load
+[Can use MDN for help]
+
+2: Create a Button on the page using JavaScript. Add an event listener to the button that changes the button's color to green
+when it is clicked.

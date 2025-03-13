@@ -1,0 +1,1 @@
+Whenever we  create different nested elements in html and add different different event listeners for them then Event Bubbling happens.
